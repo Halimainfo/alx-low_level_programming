@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - is fonction
- * Return : 0 value equal 0 (success). 1 otherwise
+ * Return: 0 value equal 0 (success). 1 otherwise
  */
 int main(void)
 {

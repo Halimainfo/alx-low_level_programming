@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - is fonction
- * Return : value equal zero (success)
+ * Return: value equal zero (success)
  */
 int main(void)
 {
