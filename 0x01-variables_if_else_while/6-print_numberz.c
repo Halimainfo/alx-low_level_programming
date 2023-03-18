@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	int c = null;
+	int c ;
 	int i = 0;
 	for (; i <= 9; i++, c++)
 		putchar(c);
