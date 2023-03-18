@@ -13,6 +13,6 @@ int main(void)
 
 	for (; ch <= 122; ch++)
 		putchar(ch);
-		putchar(l);
+		putchar(13);
 	return (0);
 }
