@@ -3,7 +3,8 @@
 /* more headers goes there */
 /* betty style doc for function main goes there */
 /**
- * print_alphabet_x10 - is fonction that prints the alphabet, in lowercase 10 times
+ * print_alphabet_x10 - is fonction that prints 
+ * the alphabet, in lowercase 10 times
  */
 void print_alphabet_x10(void)
 {
@@ -19,5 +20,6 @@ void print_alphabet_x10(void)
 	}
 	_putchar('\n');
 	i++;
+	a = 97;
 	}
 }
