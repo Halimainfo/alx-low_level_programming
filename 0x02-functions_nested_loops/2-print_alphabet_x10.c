@@ -3,9 +3,9 @@
 /* more headers goes there */
 /* betty style doc for function main goes there */
 /**
- * print_alphabet - is fonction that prints the alphabet, in lowercase
+ * print_alphabet_x10 - is fonction that prints the alphabet, in lowercase 10 times
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int a = 97;
 	int i = 0;
