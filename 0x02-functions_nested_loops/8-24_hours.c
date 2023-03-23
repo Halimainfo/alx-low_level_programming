@@ -7,17 +7,15 @@
  * @n: nomber
  * Return: 0 value equal 0 (success). 1 otherwise
  */
-int print_last_digit(int nld)
+int print_last_digit(int n)
 {
-	int pld;
-
-	pld = (nld % 10);
-
-	if (pld < 0)
+	int l = (n % 10);
+	
+	if (n < 0)
 	{
-		pld = (-1 * pld);
+		
+		l = ((-n) % 10);
 	}
-
-	_putchar(pld + '0');
-	return (pld);
+	_putchar(l + '0');
+	return (0);
 }
