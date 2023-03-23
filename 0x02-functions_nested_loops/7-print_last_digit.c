@@ -4,7 +4,7 @@
 /* betty style doc for function main goes there */
 /**
  * print_last_digit - is fonction that prints the last digit of a number
- * @n: nomber
+ * @nld: nomber
  * Return: 0 value equal 0 (success). 1 otherwise
  */
 int print_last_digit(int nld)
