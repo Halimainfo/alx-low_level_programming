@@ -1,21 +1,26 @@
 #include <stdlib.h>
 #include "main.h"
-/* more headers goes there */
-/* betty style doc for function main goes there */
 /**
- * print_last_digit - is fonction that prints the last digit of a number
- * @n: nomber
- * Return: 0 value equal 0 (success). 1 otherwise
+ * jack_bauer - function that prints every minute of the day, 24 hour clock
+ * h = hour, m = minutes
+ * / 10 allows second digit to rotate
+ * for loop breaks before passing 24:00
+ * Return: 24 hour clock line by line
  */
-int print_last_digit(int n)
+void jack_bauer(void)
 {
-	int l = (n % 10);
-	
-	if (n < 0)
+	int h, m;
+
+	for (h = 0; h < 24; h++)
 	{
-		
-		l = ((-n) % 10);
+		for (m = 0; m < 60; m++)
+		{
+			_putchar((h / 10) + '0');
+			_putchar((h % 10) + '0');
+			_putchar(':');
+			_putchar((m / 10) + '0');
+			_putchar((m % 10) + '0');
+			_putchar('\n');
+		}
 	}
-	_putchar(l + '0');
-	return (0);
 }
