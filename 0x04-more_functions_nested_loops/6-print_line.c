@@ -4,6 +4,7 @@
 /* betty style doc for function main goes there */
 /**
  * print_line - is fonction print a line
+ * @n: line
  */
 void print_line(int n)
 {
