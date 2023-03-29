@@ -18,9 +18,12 @@ void rev_string(char *s)
 		l++;
 		i++;
 	}
-	for (i = 1, j = l - 1; i <= l; i++)
+	i = 1;
+	j = l - 1;
+	while (i <= l)
 	{
 		_putchar(s[j]);
 		j = j - 1;
+		i++;
 	}
 }
