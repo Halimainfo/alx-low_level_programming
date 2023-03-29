@@ -9,21 +9,12 @@
  */
 void rev_string(char *s)
 {
-	int l = 0;
-	int i = 0;
-	int j = 0;
+	int tmp, index;
 
-	while (s[i] != '\0')
+	for (index = n - 1; index >= n / 2; index--)
 	{
-		l++;
-		i++;
-	}
-	i = 1;
-	j = l - 1;
-	while (i <= l)
-	{
-		_putchar(s[j]);
-		j = j - 1;
-		i++;
+		tmp = a[n - 1 - index];
+		a[n - 1 - index] = a[index];
+		a[index] = tmp;
 	}
 }
