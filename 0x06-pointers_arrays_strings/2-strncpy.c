@@ -3,13 +3,13 @@
 /* more headers goes there */
 /* betty style doc for function main goes there */
 /**
- * _strncat - is fonction returns the length of a string
+ * _strncpy - is fonction returns the length of a string
  * @dest: first to con
  * @src: secned to con
  * @n: number of con
  * Return: dest
  */
-char *_strncat(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int l = 0;
 	while (src[l] != '\0' && l < n)
