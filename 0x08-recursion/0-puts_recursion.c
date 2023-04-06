@@ -1,12 +1,9 @@
 #include "main.h"
 
 /**
- * _strchr - Locates a character in a string.
- * @s: The string to be searched.
- * @c: The character to be located.
- *
- * Return: If c is found - a pointer to the first occurence.
- *         If c is not found - NULL.
+ * _puts_recursion - fonction (Puts with recursion).
+ * @s: The string to print.
+ * return: nothing
  */
 
 void _puts_recursion(char *s)
@@ -15,5 +12,5 @@ void _puts_recursion(char *s)
 
 	if (s[i] == '\0')
 		_putchar(s[i]);
-		_puts_recursion(s[i+1]);
+		_puts_recursion(s + 1);
 }
