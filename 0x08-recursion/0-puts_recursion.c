@@ -9,15 +9,9 @@
  *         If c is not found - NULL.
  */
 
-char *_strchr(char *s, char c)
+void _puts_recursion(char *s)
 {
-	int i;
-
-	for (i = 0; s[i] >= '\0'; i++)
-	{
-		if (s[i] == c)
-		return (s + i);
-	}
-
-	return ('\0');
+	if (s[i] == '\0')
+		_putchar(s[i]);
+		_puts_recursion(s[i+1]);
 }
