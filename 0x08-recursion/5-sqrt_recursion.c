@@ -6,6 +6,7 @@
  * @y: the power.
  * Return: factorial -1 error - the power.
  */
+/*
 
 int _sqrt_recursion(int n)
 {
@@ -20,4 +21,4 @@ int _sqrt_recursion(int n)
 	re += 1;
 	_sqrt_recursion(n);
 	return (re);
-}
+} */
