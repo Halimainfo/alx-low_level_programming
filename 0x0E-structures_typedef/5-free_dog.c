@@ -3,9 +3,6 @@
 /**
  * free_dog - Frees dogs.
  * @d: The dog to be freed.
- * @name : name
- * @age: age
- *@owner: owner
  * return: nothing
  */
 void free_dog(dog_t *d)
